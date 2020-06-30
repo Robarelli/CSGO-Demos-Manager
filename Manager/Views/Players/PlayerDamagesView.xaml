@@ -34,6 +34,7 @@
 				</StackPanel>
 			</Button>
 		</StackPanel>
+<!-- xxx
 		<telerik:RadCartesianChart Grid.Row="1"
 								   ClipToBounds="False"
 								   x:Name="DamagesChart"
@@ -162,5 +163,6 @@
 				</telerik:LegendItemCollection>
 			</telerik:RadLegend.Items>
 		</telerik:RadLegend>
+-->        
 	</Grid>
 </UserControl>

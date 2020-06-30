@@ -165,7 +165,7 @@
 							<RowDefinition Height="*"/>
 							<RowDefinition Height="Auto"/>
 						</Grid.RowDefinitions>
-
+<!-- xxx
 						<telerik:RadCartesianChart Grid.Row="0"
 												   Palette="{StaticResource WeaponStatsChartPalette}"
 												   TooltipTemplate="{StaticResource TooltipCountPieTemplate}">
@@ -345,7 +345,9 @@
 								</telerik:LegendItemCollection>
 							</telerik:RadLegend.Items>
 						</telerik:RadLegend>
-					</Grid>
+-->
+                    </Grid>
+                        
 				</controls:MetroTabItem>
 
 				<controls:MetroTabItem Header="{x:Static properties:Resources.Sniper}">
@@ -354,7 +356,7 @@
 							<RowDefinition Height="*"/>
 							<RowDefinition Height="Auto"/>
 						</Grid.RowDefinitions>
-
+<!--
 						<telerik:RadCartesianChart Grid.Row="0"
 												   Palette="{StaticResource WeaponStatsChartPalette}"
 												   TooltipTemplate="{StaticResource TooltipCountPieTemplate}">
@@ -474,6 +476,7 @@
 								</telerik:LegendItemCollection>
 							</telerik:RadLegend.Items>
 						</telerik:RadLegend>
+-->                        
 					</Grid>
 				</controls:MetroTabItem>
 
@@ -483,7 +486,7 @@
 							<RowDefinition Height="*"/>
 							<RowDefinition Height="Auto"/>
 						</Grid.RowDefinitions>
-
+<!-- xxx
 						<telerik:RadCartesianChart Grid.Row="0"
 												   Palette="{StaticResource WeaponStatsChartPalette}"
 												   TooltipTemplate="{StaticResource TooltipCountPieTemplate}">
@@ -663,6 +666,7 @@
 								</telerik:LegendItemCollection>
 							</telerik:RadLegend.Items>
 						</telerik:RadLegend>
+-->                        
 					</Grid>
 				</controls:MetroTabItem>
 
@@ -672,7 +676,7 @@
 							<RowDefinition Height="*"/>
 							<RowDefinition Height="Auto"/>
 						</Grid.RowDefinitions>
-
+<!-- xxx
 						<telerik:RadCartesianChart Grid.Row="0"
 												   Palette="{StaticResource WeaponStatsChartPalette}"
 												   TooltipTemplate="{StaticResource TooltipCountPieTemplate}">
@@ -832,6 +836,7 @@
 								</telerik:LegendItemCollection>
 							</telerik:RadLegend.Items>
 						</telerik:RadLegend>
+-->                        
 					</Grid>
 				</controls:MetroTabItem>
 
@@ -841,7 +846,7 @@
 							<RowDefinition Height="*"/>
 							<RowDefinition Height="Auto"/>
 						</Grid.RowDefinitions>
-
+<!-- xxx
 						<telerik:RadCartesianChart Grid.Row="0"
 												   Palette="{StaticResource WeaponStatsChartPalette}"
 												   TooltipTemplate="{StaticResource TooltipCountPieTemplate}">
@@ -1061,6 +1066,7 @@
 								</telerik:LegendItemCollection>
 							</telerik:RadLegend.Items>
 						</telerik:RadLegend>
+-->                        
 					</Grid>
 				</controls:MetroTabItem>
 
@@ -1076,7 +1082,7 @@
 								<RowDefinition Height="*"/>
 								<RowDefinition Height="Auto"/>
 							</Grid.RowDefinitions>
-
+<!-- xxx
 							<telerik:RadCartesianChart Grid.Row="0"
 													   Palette="{StaticResource WeaponStatsChartPalette}"
 													   TooltipTemplate="{StaticResource TooltipCountPieTemplate}">
@@ -1216,6 +1222,7 @@
 									</telerik:LegendItemCollection>
 								</telerik:RadLegend.Items>
 							</telerik:RadLegend>
+-->                            
 						</Grid>
 
 						<Grid Grid.Column="1">

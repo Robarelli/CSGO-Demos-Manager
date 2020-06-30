@@ -813,7 +813,7 @@
 				   TextWrapping="Wrap"
 				   Visibility="{Binding IsAnalyzeRequired, Converter={StaticResource BooleanToVisibilityConverter}}"
 				   Text="{x:Static properties:Resources.AnalyzeForTimeLineWarning}" />
-
+<!-- xxx
 		<telerik:RadTimeline Grid.Row="5"
 							 Visibility="{Binding IsTimelineAvailable, Converter={StaticResource BooleanToVisibilityConverter}}"
 							 BorderBrush="Transparent"
@@ -847,6 +847,7 @@
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</telerik:RadTimeline>
+-->        
 	</Grid>
 </UserControl>
 

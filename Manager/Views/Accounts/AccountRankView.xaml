@@ -166,7 +166,7 @@
 				<RowDefinition Height="*"/>
 				<RowDefinition Height="Auto"/>
 			</Grid.RowDefinitions>
-			
+			<!-- xxx
 			<telerik:RadCartesianChart Grid.Row="0"
 									   TooltipTemplate="{StaticResource RankToolTipTemplate}"
 									   ClipToBounds="False">
@@ -218,6 +218,7 @@
 					</telerik:LegendItemCollection>
 				</telerik:RadLegend.Items>
 			</telerik:RadLegend>
+            -->
 		</Grid>
 	</Grid>
 </UserControl>

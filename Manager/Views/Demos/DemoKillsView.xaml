@@ -384,9 +384,10 @@
 					</Grid>
 				</controls:MetroTabItem>
 				<controls:MetroTabItem Header="{x:Static properties:Resources.Matrix}">
-					<telerik:RadHeatMap ShowToolTips="True"
-										CellBorderThickness="1"
-										Margin="10">
+					<!-- xxx
+                    <telerik:RadHeatMap ShowToolTips="True"
+                                        CellBorderThickness="1"
+                                        Margin="10">
 						<telerik:RadHeatMap.Definition>
 							<telerik:CategoricalDefinition RowGroupMemberPath="Killer"
 														   ColumnGroupMemberPath="Victim"
@@ -427,6 +428,7 @@
 							</Grid>
 						</telerik:RadHeatMap.DescriptionContent>
 					</telerik:RadHeatMap>
+                    -->
 				</controls:MetroTabItem>
 			</TabControl>
 		</Grid>

@@ -6,9 +6,9 @@
 			 xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
 			 xmlns:command="http://www.galasoft.ch/mvvmlight"
 			 xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-			 xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
 			 xmlns:mouse="clr-namespace:Manager.Internals.Mouse"
 			 xmlns:properties="clr-namespace:Manager.Properties"
+			 xmlns:liveCharts="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
 			 mc:Ignorable="d"
 			 d:DesignHeight="720"
 			 d:DesignWidth="1280"
@@ -704,29 +704,38 @@
 						<RowDefinition Height="Auto"/>
 					</Grid.RowDefinitions>
 
-					<telerik:RadPieChart Grid.Row="0"
-										 Palette="{StaticResource MatchStatsChartPalette}"
-										 TooltipTemplate="{StaticResource TooltipCountPieTemplate}">
-						<telerik:RadPieChart.Series>
-							<telerik:PieSeries ItemsSource="{Binding DatasMatchStats}"
-											   ValueBinding="Value"
+                    <liveCharts:PieChart Grid.Row="0" >
+                                     <!--Palette="{StaticResource MatchStatsChartPalette}"										 
+										 TooltipTemplate="{StaticResource TooltipCountPieTemplate}"> -->
+                        <liveCharts:PieChart.Series>
+
+                            <liveCharts:PieSeries Values="{Binding DatasMatchStats}">
+								<!--
+                                ValueBinding="Value"
 											   ShowLabels="True"
 											   RadiusFactor="0.65">
-								<telerik:PieSeries.LabelDefinitions>
-									<telerik:ChartSeriesLabelDefinition Margin="-10"
+                                -->
+								<!--
+                                <telerik:PieSeries.LabelDefinitions>
+                                    <telerik:ChartSeriesLabelDefinition Margin="-10"
 																		Template="{StaticResource PieCountLabelTemplate}" />
-								</telerik:PieSeries.LabelDefinitions>
+                                </telerik:PieSeries.LabelDefinitions>
+
 								<telerik:PieSeries.LabelConnectorsSettings>
-									<telerik:ChartSeriesLabelConnectorsSettings Style="{StaticResource LabelConnectorStyle}" />
-								</telerik:PieSeries.LabelConnectorsSettings>
-							</telerik:PieSeries>
-						</telerik:RadPieChart.Series>
+                                    <telerik:ChartSeriesLabelConnectorsSettings Style="{StaticResource LabelConnectorStyle}" />
+                                </telerik:PieSeries.LabelConnectorsSettings>
+								-->
+                            </liveCharts:PieSeries>
+						</liveCharts:PieChart.Series>
+						<!--
 						<telerik:RadPieChart.Behaviors>
 							<telerik:ChartSelectionBehavior DataPointSelectionMode="Multiple" />
 							<telerik:ChartTooltipBehavior />
 						</telerik:RadPieChart.Behaviors>
-					</telerik:RadPieChart>
+                        -->
+                    </liveCharts:PieChart>
 
+					<!--
 					<telerik:RadLegend Grid.Row="1"
 									   VerticalAlignment="Bottom"
 									   HorizontalAlignment="Center">
@@ -746,6 +755,7 @@
 							</telerik:LegendItemCollection>
 						</telerik:RadLegend.Items>
 					</telerik:RadLegend>
+                    -->
 				</Grid>
 			</Grid>
 		</ScrollViewer>

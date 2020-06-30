@@ -173,6 +173,7 @@
 					   Text="{x:Static properties:Resources.WeaponKills}"
 					   VerticalAlignment="Bottom"
 					   Style="{StaticResource TextBlockSectionTitle}"/>
+			<!-- xxx
 			<telerik:RadPieChart Grid.Row="1"
 								 Palette="{StaticResource WeaponKillPalette}"
 								 VerticalAlignment="Top"
@@ -198,6 +199,7 @@
 					<telerik:ChartTooltipBehavior />
 				</telerik:RadPieChart.Behaviors>
 			</telerik:RadPieChart>
+            --> 
 		</Grid>
 	</Grid>
 </UserControl>

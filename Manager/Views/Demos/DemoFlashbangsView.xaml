@@ -89,8 +89,9 @@
 			</Grid.ColumnDefinitions>
 
 			<Grid Grid.Column="0">
-				<telerik:RadHeatMap ShowToolTips="True"
-									CellBorderThickness="1">
+				<!-- xxx
+                <telerik:RadHeatMap ShowToolTips="True"
+                                    CellBorderThickness="1">
 					<telerik:RadHeatMap.Definition>
 						<telerik:CategoricalDefinition RowGroupMemberPath="Flasher"
 													   ColumnGroupMemberPath="Flashed"
@@ -131,6 +132,7 @@
 						</Grid>
 					</telerik:RadHeatMap.DescriptionContent>
 				</telerik:RadHeatMap>
+                -->
 			</Grid>
 
 			<Grid Grid.Column="1">
@@ -141,8 +143,9 @@
 
 				<!-- Heatmap by team -->
 				<Grid Grid.Row="0">
-					<telerik:RadHeatMap ShowToolTips="True"
-										CellBorderThickness="1">
+					<!-- xxx
+                    <telerik:RadHeatMap ShowToolTips="True"
+                                        CellBorderThickness="1">
 						<telerik:RadHeatMap.Definition>
 							<telerik:CategoricalDefinition RowGroupMemberPath="Flasher"
 														   ColumnGroupMemberPath="Flashed"
@@ -182,6 +185,7 @@
 							</Grid>
 						</telerik:RadHeatMap.DescriptionContent>
 					</telerik:RadHeatMap>
+                    -->
 				</Grid>
 
 				<Grid Grid.Row="1">
@@ -191,6 +195,7 @@
 					</Grid.ColumnDefinitions>
 					<Grid Grid.Column="0">
 						<!-- Heatmap average by players -->
+						<!-- xxx
 						<telerik:RadHeatMap ShowToolTips="True"
 											CellBorderThickness="1">
 							<telerik:RadHeatMap.Definition>
@@ -225,6 +230,7 @@
 								<telerik:HeatMapToolTipSettings ToolTipTemplate="{StaticResource FlashbangAveragePlayerToolTipTemplate}" />
 							</telerik:RadHeatMap.ToolTipSettings>
 						</telerik:RadHeatMap>
+                        -->
 					</Grid>
 					<Grid Grid.Column="1">
 						<Grid.RowDefinitions>

@@ -203,6 +203,7 @@
 								<RowDefinition Height="*"/>
 								<RowDefinition Height="Auto"/>
 							</Grid.RowDefinitions>
+							<!-- xxx
 							<telerik:RadCartesianChart Grid.Row="0"
 													   ClipToBounds="False">
 								<telerik:RadCartesianChart.Resources>
@@ -325,6 +326,7 @@
 									</telerik:LegendItemCollection>
 								</telerik:RadLegend.Items>
 							</telerik:RadLegend>
+                            -->
 						</Grid>
 					</Grid>
 				</controls:MetroTabItem>
@@ -335,6 +337,7 @@
 							<RowDefinition Height="*"/>
 							<RowDefinition Height="Auto"/>
 						</Grid.RowDefinitions>
+						<!-- xxx
 						<telerik:RadCartesianChart Grid.Row="0"
 												   ClipToBounds="False">
 							<telerik:RadCartesianChart.VerticalAxis>
@@ -408,6 +411,7 @@
 								</telerik:LegendItemCollection>
 							</telerik:RadLegend.Items>
 						</telerik:RadLegend>
+                        -->
 					</Grid>
 				</controls:MetroTabItem>
 				<controls:MetroTabItem Header="{x:Static properties:Resources.KillVelocity}">
@@ -457,6 +461,7 @@
 										   Margin="20 0 0 0"/>
 							</StackPanel>
 						</Grid>
+						<!-- xxx
 						<telerik:RadCartesianChart Grid.Row="1"
 												   ClipToBounds="False">
 							<telerik:RadCartesianChart.VerticalAxis>
@@ -584,6 +589,7 @@
 								</telerik:LegendItemCollection>
 							</telerik:RadLegend.Items>
 						</telerik:RadLegend>
+                        -->
 						<TextBlock Grid.Row="3"
 								   Text="{x:Static properties:Resources.TipsGraphAverageKillVelocity}"
 								   Style="{StaticResource LabelChartStyle}"

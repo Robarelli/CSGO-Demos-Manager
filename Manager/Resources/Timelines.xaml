@@ -9,6 +9,7 @@
 		<ResourceDictionary Source="pack://application:,,,/Telerik.Windows.Controls.DataVisualization;component/themes/genericwindows8.xaml" />
 	</ResourceDictionary.MergedDictionaries>
 
+	<!-- xxx
 	<Style TargetType="telerik:TimelineItemGroupControl"
 		   BasedOn="{StaticResource TimelineItemGroupControlStyle}">
 		<Setter Property="IsExpanded" Value="True" />
@@ -18,8 +19,8 @@
 	<Style TargetType="telerik:TimelinePeriodControl">
 		<Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
 	</Style>
-
-	<!-- set the Timeline strip color -->
+-->
+	<!-- xxx set the Timeline strip color 
 	<Style TargetType="Border" x:Key="NormalStyle">
 		<Setter Property="Background" Value="{DynamicResource ControlBackgroundBrush}" />
 	</Style>
@@ -30,15 +31,15 @@
 		<Setter Property="NormalStyle" Value="{StaticResource NormalStyle}" />
 		<Setter Property="AlternateStyle" Value="{StaticResource AlternateStyle}" />
 	</Style>
-	<!-- end timeline strip color -->
+	 end timeline strip color -->
 
 	<Style TargetType="TextBlock" x:Key="TimeLineToolTipTextBlockStyle">
 		<Setter Property="FontSize" Value="14" />
 		<Setter Property="TextWrapping" Value="Wrap" />
 		<Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
 	</Style>
-
-	<!-- WPF styling is not really flexible, had to override the whole default theme :/ -->
+<!-- xxx
+	WPF styling is not really flexible, had to override the whole default theme :/ 
 	<Style TargetType="{x:Type telerik:RadSlider}" x:Key="TimeLineSliderStyle">
 		<Setter Property="HandlesVisibility" Value="Collapsed"/>
 		<Setter Property="Height" Value="20"/>
@@ -358,4 +359,5 @@
 			</Setter.Value>
 		</Setter>
 	</Style>
+	-->
 </ResourceDictionary>

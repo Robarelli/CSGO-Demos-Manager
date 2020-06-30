@@ -13,7 +13,7 @@
 			<converters:StringToDateConverter x:Key="StringToDateConverter" />
 		</ResourceDictionary>
 	</ResourceDictionary.MergedDictionaries>
-
+<!-- xxx
 	<telerik:ChartPalette x:Key="MatchStatsChartPalette">
 		<telerik:ChartPalette.SeriesEntries>
 			<telerik:PaletteEntryCollection SeriesFamily="Pie">
@@ -108,7 +108,7 @@
 			</Border>
 		</Grid>
 	</DataTemplate>
-
+-->
 	<DataTemplate x:Key="RankAxisTemplate">
 		<Image Source="{Binding Converter={StaticResource RankToImageConverter}}" Height="32"/>
 	</DataTemplate>

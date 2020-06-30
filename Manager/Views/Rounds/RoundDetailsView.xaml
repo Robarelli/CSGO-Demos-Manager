@@ -451,28 +451,30 @@
 						Margin="1"
 						BorderThickness="2 0 2 2"
 						BorderBrush="{StaticResource HighlightBrush}">
-					<telerik:RadTimeline BorderThickness="0"
-										 PeriodStart="{Binding PeriodStart}"
-										 PeriodEnd="{Binding PeriodEnd}"
-										 VisiblePeriodStart="{Binding VisibleStartTime}"
-										 VisiblePeriodEnd="{Binding VisibleEndTime}"
-										 IsSelectionEnabled="True"
-										 SelectionMode="Single"
-										 StartPath="StartTime"
-										 DurationPath="Duration"
-										 GroupPath="Category"
-										 ScrollMode="ScrollAndZoom"
-										 GroupExpandMode="Multiple"
-										 VerticalScrollBarVisibility="Auto"
-										 SliderStyle="{StaticResource TimeLineSliderStyle}"
-										 ToolTipTemplate="{StaticResource RoundToolTipTemplate}"
-										 ItemTemplateSelector="{StaticResource RoundTemplateSelector}"
-										 ItemsSource="{Binding RoundEventList}">
+					<!-- xxx
+                    <telerik:RadTimeline BorderThickness="0"
+                                         PeriodStart="{Binding PeriodStart}"
+                                         PeriodEnd="{Binding PeriodEnd}"
+                                         VisiblePeriodStart="{Binding VisibleStartTime}"
+                                         VisiblePeriodEnd="{Binding VisibleEndTime}"
+                                         IsSelectionEnabled="True"
+                                         SelectionMode="Single"
+                                         StartPath="StartTime"
+                                         DurationPath="Duration"
+                                         GroupPath="Category"
+                                         ScrollMode="ScrollAndZoom"
+                                         GroupExpandMode="Multiple"
+                                         VerticalScrollBarVisibility="Auto"
+                                         SliderStyle="{StaticResource TimeLineSliderStyle}"
+                                         ToolTipTemplate="{StaticResource RoundToolTipTemplate}"
+                                         ItemTemplateSelector="{StaticResource RoundTemplateSelector}"
+                                         ItemsSource="{Binding RoundEventList}">
 						<telerik:RadTimeline.Intervals>
 							<telerik:SecondInterval IntervalSpans="10"
 													FormatterProvider="{StaticResource CustomSecondsFormatter}" />
 						</telerik:RadTimeline.Intervals>
 					</telerik:RadTimeline>
+                    -->
 				</Border>
 			</Grid>
 		</Grid>
