@@ -1,7 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using Services.Models.Timelines;
-using Telerik.Windows.Controls.Timeline;
 
 namespace Manager.Models.Selectors
 {

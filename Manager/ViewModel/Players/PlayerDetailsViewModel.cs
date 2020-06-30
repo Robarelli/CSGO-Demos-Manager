@@ -10,17 +10,14 @@ using Core.Models;
 using Core.Models.Events;
 using GalaSoft.MvvmLight.CommandWpf;
 using MahApps.Metro.Controls.Dialogs;
-using Manager.Properties;
 using Manager.Services;
 using Manager.ViewModel.Shared;
 using Manager.Views.Demos;
 using Services.Concrete;
-using Services.Concrete.Movie;
 using Services.Interfaces;
 using Services.Models;
 using Services.Models.Charts;
 using Services.Models.Stats;
-using Telerik.Windows.Controls;
 using Application = System.Windows.Application;
 
 namespace Manager.ViewModel.Players

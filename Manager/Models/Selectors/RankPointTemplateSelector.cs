@@ -1,7 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using Services.Models.Charts;
-using Telerik.Charting;
 
 namespace Manager.Models.Selectors
 {

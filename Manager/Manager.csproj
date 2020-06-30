@@ -217,6 +217,7 @@
     <Compile Include="Messages\UpdateSuspectBannedCountMessage.cs" />
     <Compile Include="Messages\UpdateTaskbarProgressMessage.cs" />
     <Compile Include="Models\CategoricalDataPoint.cs" />
+    <Compile Include="Models\DataPointItemBase.cs" />
     <Compile Include="Models\DemoMovie\PlayersSelection.cs" />
     <Compile Include="Models\DemoStatus.cs" />
     <Compile Include="Models\Formatters\CustomSecondsFormatter.cs" />
@@ -227,6 +228,7 @@
     <Compile Include="Models\PlayerColor.cs" />
     <Compile Include="Models\ComboboxSelector.cs" />
     <Compile Include="Internals\Mouse\MouseBindingExtended.cs" />
+    <Compile Include="Models\TimelineDataItem.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

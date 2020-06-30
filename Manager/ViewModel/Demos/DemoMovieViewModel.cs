@@ -23,7 +23,6 @@ using Services.Concrete.Movie;
 using Services.Interfaces;
 using Services.Models.Movie;
 using Services.Models.Timelines;
-using Telerik.Windows.Controls;
 #endregion
 
 namespace Manager.ViewModel.Demos
