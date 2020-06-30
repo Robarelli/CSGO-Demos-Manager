@@ -216,6 +216,7 @@
     <Compile Include="Messages\ThirdPartySelected.cs" />
     <Compile Include="Messages\UpdateSuspectBannedCountMessage.cs" />
     <Compile Include="Messages\UpdateTaskbarProgressMessage.cs" />
+    <Compile Include="Models\CategoricalDataPoint.cs" />
     <Compile Include="Models\DemoMovie\PlayersSelection.cs" />
     <Compile Include="Models\DemoStatus.cs" />
     <Compile Include="Models\Formatters\CustomSecondsFormatter.cs" />
