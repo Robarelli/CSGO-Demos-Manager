@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Controls;
-using Telerik.Windows.Controls.TimeBar;
 
 namespace Manager.Models.Formatters
 {

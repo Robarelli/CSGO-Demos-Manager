@@ -577,10 +577,12 @@ namespace Manager.ViewModel.Demos
 					   ?? (_timelineRightClick = new RelayCommand<MouseButtonEventArgs>(
 						   e =>
 						   {
+							   /* xxx
 							   RadTimeline timeline = (RadTimeline)e.Source;
 							   Point point = e.MouseDevice.GetPosition(timeline);
 							   DateTime dateTime = timeline.ConvertPointToDateTime(point);
 							   SelectedTick = (int)(dateTime.Subtract(DateTime.Today).TotalSeconds * Demo.ServerTickrate);
+							   */
 						   },
 						   demo => Demo != null));
 			}

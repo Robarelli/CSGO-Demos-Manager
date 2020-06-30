@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Windows.Input;
-using System.Windows.Media.Imaging;
 using Core;
 using Core.Models;
 using Core.Models.Events;
@@ -68,7 +66,7 @@ namespace Manager.ViewModel.Players
 
 		private RelayCommand _addPlayerToWhitelistCommand;
 
-		private RelayCommand<RadCartesianChart> _exportChartCommand;
+		// xxx private RelayCommand<RadCartesianChart> _exportChartCommand;
 
 		#endregion
 
@@ -341,6 +339,7 @@ namespace Manager.ViewModel.Players
 			}
 		}
 
+		/* xxx
 		public RelayCommand<RadCartesianChart> ExportChartCommand
 		{
 			get
@@ -380,9 +379,8 @@ namespace Manager.ViewModel.Players
 							}
 						}));
 			}
-		}
-
-		#endregion
+		}*/
+        #endregion
 
 		public PlayerDetailsViewModel(IPlayerService playerService, IDialogService dialogService, ICacheService cacheService)
 		{
